@@ -1,10 +1,12 @@
 import turtle
 import random
+
 a=["red", "green", "blue"]
+
 for i in range(8):
- #losowanie jednego z trzech kolorów
- fillcolor(a[0])
- begin_fill()
+    #losowanie jednego z trzech kolorów
+    turtle.fillcolor(a[0])
+    turtle.begin_fill()
 
 
 
@@ -45,7 +47,14 @@ def narysuj_wieloboki(wielobok, liczba_wieloboków_do_narysowania):
 
 
 if __name__ == '__main__':
-   
+ 
+
+    liczba_boków = (1,2,3,4)
+    ile_ma_mieć_boków = (liczba_boków)
+    podaj_liczbę_boków = (liczba_boków)
+    liczba_boków = ['4', '4', '4', '4']
+    random.choice(liczba_boków) # Wybierz losową liczbę boków
+    
     liczba_kwadratów = 10
     a = 300  # długość boku największego kwadratu
     kwadrat = [ (0, 0), (a, 0), (a, a), (0, a) ]
