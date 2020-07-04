@@ -49,7 +49,7 @@ def narysuj_wieloboki(wielobok, liczba_wieloboków_do_narysowania):
 if __name__ == '__main__':
  
 
-    liczba_boków = (1,2,3,4)
+    liczba_boków = (4,4,4,4)
     ile_ma_mieć_boków = (liczba_boków)
     podaj_liczbę_boków = (liczba_boków)
     liczba_boków = ['4', '4', '4', '4']
