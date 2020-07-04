@@ -63,4 +63,4 @@ if __name__ == '__main__':
     kwadrat = [ (0, 0), (a, 0), (a, a), (0, a) ]
     narysuj_wieloboki(kwadrat, liczba_kwadratów)
     
-    turtle.done()
+    turtle.done() # koniec programu
