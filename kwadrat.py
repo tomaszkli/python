@@ -48,6 +48,8 @@ def narysuj_wieloboki(wielobok, liczba_wieloboków_do_narysowania):
 
 if __name__ == '__main__':
  
+    turtle.bgcolor('grey') # kolor tła
+    turtle.color('green') # kolor żółwia oraz linii rysowania
     turtle.home() # Środek ekranu
     liczba_boków = (4,4,4,4)
     ile_ma_mieć_boków = (liczba_boków)
