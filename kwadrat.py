@@ -1,7 +1,7 @@
 import turtle
 import random
 
-a=["red", "green", "blue"]
+a=["red", "green", "blue"] # kolory czerwony zielony niebieski
 
 for i in range(8):
     #losowanie jednego z trzech kolorów
@@ -12,7 +12,7 @@ for i in range(8):
 
 
 
-def narysuj_wielobok(wielobok):
+def narysuj_wielobok(wielobok):  # rysuje nowy wielobok
     n = len(wielobok)
     turtle.up()
     turtle.goto(wielobok[0])
@@ -21,7 +21,7 @@ def narysuj_wielobok(wielobok):
         j = i % n
         turtle.goto(wielobok[j])
 
-def oblicz_następny_wielobok(wielobok):
+def oblicz_następny_wielobok(wielobok):  # kolejny wielobok 
     n = len(wielobok)
     nowy_wielobok = []; 
     for i in range(n):
@@ -47,11 +47,12 @@ def narysuj_wieloboki(wielobok, liczba_wieloboków_do_narysowania):
 
 
 if __name__ == '__main__':
- 
+    
+    
     turtle.bgcolor('grey') # kolor tła
     turtle.color('green') # kolor żółwia oraz linii rysowania
     turtle.home() # Środek ekranu
-    liczba_boków = (4,4,4,4)
+    liczba_boków = (1,2,3,4)
     ile_ma_mieć_boków = (liczba_boków)
     podaj_liczbę_boków = (liczba_boków)
     liczba_boków = ['4', '4', '4', '4']
